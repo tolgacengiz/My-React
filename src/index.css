@@ -7,9 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: rgb(238, 252, 247);
+
+}
+
+h1 {
+  color: #F7873D  ;
+  padding: 10px 10px;
+  font-size: 16px;
+
+}
+
+.app {
+  
+}
 .frame {
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid #F6AF71;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .frame__content img {
@@ -17,7 +34,9 @@ body {
 }
 
 .frame__header {
-  font-size: 12px;
+  font-size: 20px;
+  color: #F7873D;
+  background-color: #1C6463;
   margin: 0;
   padding: 10px;
 }
